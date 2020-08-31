@@ -30,7 +30,7 @@ todo: plan for runners that are exactly 18
 let raceNumber = Math.floor(Math.random() * 1000);
 
 //to sure that if someone registered early or not
-const registeredEarly = false;
+const registeredEarly = true;
 
 //the age of runner
 const age = 24;
@@ -45,4 +45,6 @@ if (age > 18 && registeredEarly === true) {
   console.log(`Your race at 11:00 am. because your race number is ${raceNumber}`);
 } else if (age < 18) {
   console.log(`Your race at 12:30 pm. because your race number is ${raceNumber}`);
+} else {
+  console.log('You should see the registration desk');
 }
