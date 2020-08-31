@@ -36,3 +36,13 @@ const registeredEarly = false;
 const age = 24;
 
 //
+if (age > 18 && registeredEarly === true) {
+  raceNumber += 1000;
+} 
+if (age > 18 && registeredEarly === true) {
+  console.log(`Your race at 9:30 am. because your race number is ${raceNumber}`);
+} else if (age > 18 && registeredEarly === false) {
+  console.log(`Your race at 11:00 am. because your race number is ${raceNumber}`);
+} else if (age < 18) {
+  console.log(`Your race at 12:30 pm. because your race number is ${raceNumber}`);
+}
