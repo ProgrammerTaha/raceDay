@@ -26,9 +26,13 @@ todo: plan for runners that are exactly 18
 
 */
 
-//for choosing between recipients
+//for choosing between runners
 let raceNumber = Math.floor(Math.random() * 1000);
 
 //to sure that if someone registered early or not
 const registeredEarly = false;
 
+//the age of runner
+const age = 24;
+
+//
